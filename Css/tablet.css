@@ -1,0 +1,58 @@
+@media
+(max-width:744px)
+{
+    .header_nav {
+    background: #b53a1bef;
+    position: fixed;
+    top: 146.4px;
+    left: -100%;
+    transition: .5s linear;
+    display: flex;
+    width: 240px;
+    padding: 25px 81px 25px 82px;
+    justify-content: center;
+    align-items: center;
+}
+.burger {
+    display: block;
+}
+
+.show {
+    left: 0;
+}
+.header_ul {
+    flex-direction: column;
+    align-items: center;
+}
+    
+    .text1{
+    width: 664px;
+}
+    .box2{
+    flex-wrap: wrap;
+
+}
+.card2{
+    flex-direction: column;
+    
+}
+.foto3{
+    width: 690px;
+    height: 322px;
+    padding-top: 40px;
+}
+
+.foto5{
+    display: none;
+}
+.foto6{
+width: 336px;
+height: 260px;
+
+}
+
+
+.last_nav{
+    display: none;
+}
+}

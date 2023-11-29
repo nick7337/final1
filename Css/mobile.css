@@ -1,0 +1,47 @@
+@media
+(max-width:480px)
+{
+    .header_nav {
+        background: #b53a1bef;
+        position: fixed;
+        top: 146.4px;
+        left: -100%;
+        transition: .5s linear;
+        display: flex;
+        width: 240px;
+        padding: 25px 81px 25px 82px;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger {
+        display: block;
+    }
+
+    .show {
+        left: 0;
+    }
+    .header_ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .text1{
+        width: 440px;
+    }
+    .foto4{
+        width: 432px;
+        height: 240px; 
+    }
+        .foto6{
+        display: none;
+    }
+    .image9{
+        display: none;
+    }
+    .title7{
+        display: none;
+    }
+    .footer_li_a{
+        display: none;
+    }  
+}
