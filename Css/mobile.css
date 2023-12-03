@@ -1,6 +1,9 @@
 @media
-(max-width:480px)
-{
+(max-width:690px)
+{  
+    .container {
+    padding-top: 120px;
+}
     .header_nav {
         background: #b53a1bef;
         position: fixed;
@@ -9,7 +12,7 @@
         transition: .5s linear;
         display: flex;
         width: 240px;
-        padding: 25px 81px 25px 82px;
+        padding: 25px 60px 25px 82px;
         justify-content: center;
         align-items: center;
     }
@@ -24,9 +27,86 @@
         flex-direction: column;
         align-items: center;
     }
-    
+  
+  
+    .title1{
+        width: 490px;
+        
+
+    }
     .text1{
+        
         width: 440px;
+        height: calc(114 * 690 / 100%);
+    }
+   
+   
+
+    .title1_1{
+        width: 493px;
+        height: 48px;
+        left: 48px;
+        
+    }
+  .cover1{
+    width: 125%;
+height: 400px;
+flex-shrink: 0;
+  }
+  .cover2{
+    width: 125%;
+height: 400px;
+flex-shrink: 0;
+
+  }
+  .cover3{
+    width: 125%;   
+height: 400px;
+flex-shrink: 0;
+  }
+  .cover4{
+width: 125%;
+flex-shrink: 0;
+
+}
+
+.box3{
+    width: 125%;
+}
+.box7{
+    width: 100%;
+}
+    .title{
+        width: 398px;
+        height: 48px;
+        
+    }
+    .box2{
+       flex-wrap: wrap;
+       
+    }
+    .section_article3{
+        margin-top: auto;
+        width: 100%;
+
+
+
+    }
+ 
+
+    .card2{
+    column-gap: 20px;
+    }
+    
+    .foto2{   
+    width: 432px;
+    height:240px;
+    flex-shrink: 0;
+    }
+    .foto3{
+    width: 432px;
+    height: 240px;
+    flex-shrink: 0;
     }
     .foto4{
         width: 432px;
@@ -35,13 +115,120 @@
         .foto6{
         display: none;
     }
-    .image9{
-        display: none;
+    .card5_1{
+        width: 100%;
+        height: 196px;
+        top: 63px;
+        padding: 8px, 8px, 20px, 8px;
+        border-radius: 8px;    
     }
+    .card5_2{
+        width: 100%;
+        height: 196px;
+        top: 279px;
+        padding: 8px, 8px, 44px, 8px;
+        border-radius: 8px;
+    }
+    .card5_3{
+        width: 100%;
+        height: 148px;
+        top: 495px;
+        padding: 8px, 8px, 20px, 8px;
+        border-radius: 8px;
+    }    
+    
+    
     .title7{
         display: none;
     }
-    .footer_li_a{
-        display: none;
-    }  
+
+
+  .logo1{
+    margin-top: 50px ;
+  } 
+  .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9{
+    width: 432px;
+height: 240px;
+border-radius: 8px;
+
 }
+.section_article1{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-10%);
+     
+}
+.box7{
+    
+    align-items: center;
+
+
+
+}
+.section_article1_1{
+    position: absolute;
+        left: 60%;
+        top: 25%;
+        transform: translate(-60%,-25%);
+    }
+.form3{
+    position: absolute;
+padding: 24px 20px;  
+width: 432px;
+height: 400px;
+
+}
+
+#name{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    padding: 12px 116px 11px 8px;
+    
+    }
+
+#email{
+    display: flex;
+    width: 160px;
+    padding: 12px 116px 11px 8px;
+    
+}
+textarea{
+    display: flex;
+width: 392px;
+height: 96px;
+padding: 8px 324px 71px 8px;
+align-items: center;
+flex-shrink: 0;
+}
+
+.box8{
+    width: 432px;
+height: 615px;
+}
+.card10{
+ margin-top: 24px;
+}
+
+.maps{
+    width: 432px;
+    height: 320px;
+    flex-shrink: 0;
+    
+    
+
+}
+
+.last_nav{
+    display:  none;
+}
+.footer{
+    
+}
+
+}
+  

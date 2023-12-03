@@ -1,4 +1,4 @@
-@media(max-width:1024px)
+@media(max-width:1130px)
 {
     .header_nav {
     background: #b53a1bef;
@@ -23,30 +23,84 @@
     flex-direction: column;
     align-items: center;
 }
-.cover1{
-    width: 1024px;
-    height: 640px;
+
+
+.card2{
+    column-gap: 24px;
+}
+.cards2{
+    column-gap: 24px;
 }
 .foto2{
-    width: 680px;
+    width: 591px;
+height: 322px;
+flex-shrink: 0;
 }
+.foto3{
+    width: 345px;
+height: 322px;
+flex-shrink: 0;
+}
+.foto4{
+width: 284px ;
+height: 260px;
+flex-shrink: 0;
+}
+.foto5{
+width: 284px;
+height: 260px;
+flex-shrink: 0;
+}
+.foto6{
+width: 345px;
+height: 260px;
+flex-shrink: 0;
+}
+
+
 .text1{
  width: 750px;
  
 
 }
-.image9{
-    display: none;
-}
 .box5{
-    flex-direction: column;
+   flex-wrap: wrap;
     
 }
-.card5{
-    width: 696px;
+.card5_1,.card5_2{
+    width: 468px;
     height: 172px;
+    top: 84px;
+    padding: 8px, 8px, 20px, 8px;
+    border-radius: 8px;
+    
+
+}
+.card5_3{
+display: flex;
+width: 960px;
+height: 124px;
+padding: 8px 8px 20px 8px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
 }
 .middle1{
 margin: 24px 0;
+}
+.box8{
+    width: 960px;
+    height: 408px;
+}
+.card10{
+    margin-top: 40px;
+   }
+.maps{
+    width: 714px;
+height: 320px;
+flex-shrink: 0;
+
+
+
 }
 }

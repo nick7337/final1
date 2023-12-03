@@ -1,21 +1,12 @@
 @media
-(max-width:744px)
+(max-width:1024px)
 {
-    .header_nav {
-    background: #b53a1bef;
-    position: fixed;
-    top: 146.4px;
-    left: -100%;
-    transition: .5s linear;
-    display: flex;
-    width: 240px;
-    padding: 25px 81px 25px 82px;
-    justify-content: center;
-    align-items: center;
-}
+ 
 .burger {
     display: block;
+    
 }
+
 
 .show {
     left: 0;
@@ -29,19 +20,42 @@
     width: 664px;
 }
     .box2{
+    display: flex; 
+    width: 384px;
+    height: 364px;
     flex-wrap: wrap;
+    margin:160px auto;
+}
 
+.title1_1{
+    width: 493px;
+height: 48px;
+left: 48px;
+
+}
+.header_logo{
+    flex-direction: column;
 }
 .card2{
     flex-direction: column;
     
+}    
+
+.foto2{
+width: 680px;
+height: 322px;
+flex-shrink: 0;
 }
 .foto3{
     width: 690px;
     height: 322px;
     padding-top: 40px;
 }
-
+.foto4{
+    width: 336px;
+height: 260px;
+flex-shrink: 0;
+}
 .foto5{
     display: none;
 }
@@ -51,8 +65,60 @@ height: 260px;
 
 }
 
-
-.last_nav{
-    display: none;
+#button_sub{
+    left: 65%;
+top:85%;
+transform: translateY(-65%, -85%);
+display: flex;
+height: 56px;
+padding: 17px 25px 17px 26px;
+justify-content: center;
+align-items: center;
 }
+
+.card5_1{
+    width: 696px;
+    height: 172px;
+    top: 84px;
+    padding: 8px, 8px, 44px, 8px;
+    border-radius: 8px;
+    
+    
+}
+.card5_2{
+    width: 696px;
+height: 172px;
+top: 280px;
+padding: 8px, 8px, 44px, 8px;
+border-radius: 8px;
+
+}
+.card5_3{
+    width: 696px;
+height: 124px;
+top: 475px;
+padding: 8px, 8px, 20px, 8px;
+border-radius: 8px;
+
+}
+.box8{
+    width: 696px;
+    height: 656px;
+    flex-shrink: 0;
+}
+.card10{
+ margin-top: 40px;
+}
+
+.maps{
+    width: 696px;
+    height: 320px;
+    flex-shrink: 0;
+    
+    
+
+}
+
+
+
 }
